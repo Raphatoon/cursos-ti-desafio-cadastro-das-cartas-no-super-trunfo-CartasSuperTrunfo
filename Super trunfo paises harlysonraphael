@@ -1,0 +1,42 @@
+#include<studio.h>
+#include<string>
+
+#define MAX_ESTADOS 4
+#define MAX_CIDADE  1
+
+typedef struct {
+
+    char codigo[4];
+    char pais [20];
+    char estado [20];
+    char cidade [20];
+    int população;
+    float area;
+    float pib;
+    int pontos_turisticos;
+    float densidade_populacional:
+    float pib_por_capital;
+} carta;
+
+int main(){ 
+    Carta cartas[MAX_ESTADOS] [MAX_CIDADE]
+    //Brasil
+    stricpy(cartas [0][0].codigo,"B01");
+    stricpy(cartas [0][0].pais,"Brasil");
+    stricpy(cartas[0][0].estado," Amazonas");
+    stricpy(cartas [0][0].cidade,"Manaus");
+    cartas[0][0].população 4281209;
+    cartas[0][0].area=.1570745680;
+    cartas[0][0].pib =	131.531;
+    cartas[0][0].pontos_turisticos=503
+    cartas[0][0]..densidade_populacional=2,53;
+    cartas[0][0]pib_por_capital 56300
+    
+     //Estados Unidos 
+     
+     stricpy(cartas[1][0].codigo,"E01");
+     stricpy(cartas [1][0].pais,"Estados Unidos");
+     stricpy(cartas[1][0].estado,"California");
+     stricpy(cartas[1][0].cidade,"Los Angeles");
+             
+}
